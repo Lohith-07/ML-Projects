@@ -1,48 +1,77 @@
-# 🤖 Machine Learning Projects Repository
+🤖 Machine Learning Projects Repository
 
-Welcome to my Machine Learning Projects repository! This repo contains beginner-friendly projects aimed at building end-to-end ML pipelines for real-world problems.
+Welcome to my Machine Learning Projects repository!
+This repo contains beginner-to-intermediate level projects aimed at building end-to-end ML pipelines for real-world problems. Each project includes EDA, feature engineering, model training, evaluation, and conclusions.
 
----
+📁 Projects
+1. 🛍️ Customer Purchase Prediction
 
-## 📁 Projects
+Goal: Predict whether a customer will purchase a product based on demographic and financial features.
 
-### 1. 🛍️ Customer Purchase Prediction
+Dataset: Shop.csv (simulated / open source).
 
-**Goal**: Predict whether a customer will purchase a product based on their gender, age, and estimated salary.
+Tech Stack: Logistic Regression, Naive Bayes, Label Encoding, Scaling, Streamlit.
 
-**Dataset**: Shop.csv (simulated or from open sources)
+Highlights:
 
-**Tech Stack**:
-- Logistic Regression
-- Naive Bayes Classifier
-- Label Encoding
-- Standard Scaling
-- Seaborn & Matplotlib for EDA
-- Streamlit (for optional web app)
+Feature preprocessing & encoding
 
-**Project Highlights**:
-- Feature preprocessing and encoding
-- Visual exploratory data analysis
-- Model building and comparison
-- Evaluation using accuracy, confusion matrix, precision/recall/F1
+EDA using Seaborn & Matplotlib
 
----
+Model comparison (Logistic vs Naive Bayes)
 
-## 🧰 Tools & Libraries
+Evaluation: Accuracy, Confusion Matrix, Precision/Recall/F1
 
-- Python 3.x
-- pandas, numpy, matplotlib, seaborn
-- scikit-learn
+🔗 View Project
 
----
+2. 🚗 Car Price Prediction
 
-## 🚀 How to Run
+Goal: Predict the price of a car based on its specifications (engine, horsepower, torque, etc.).
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/ml-projects.git
-   cd ml-projects/customer-purchase-prediction
-## Author: Lohith Burra
--📧 Email: lohithburra3@gmail.com
--🐍 GitHub: @Lohith-07
--💼 LinkedIn: Linkedin.com
+Dataset: 1,000 car records with 8 features.
+
+Tech Stack: Multiple Linear Regression, Random Forest, Pandas, Seaborn, Scikit-learn.
+
+Highlights:
+
+EDA (distributions, correlations, scatterplots, boxplots)
+
+Regression modeling (MLR & Random Forest)
+
+Cross-validation for robustness
+
+Insights into strongest predictors (Horsepower, Torque, Engine Size)
+
+🔗 View Project
+
+🧰 Tools & Libraries
+
+Python 3
+
+pandas, numpy
+
+matplotlib, seaborn
+
+scikit-learn
+
+streamlit (for deployment in some projects)
+
+🚀 How to Run
+
+Clone this repository:
+
+git clone https://github.com/yourusername/ml-projects.git
+cd ml-projects
+
+
+Navigate into the project folder of your choice and open the Jupyter Notebook.
+
+👨‍💻 Author
+
+Lohith Burra
+
+📧 Email: lohithburra3@gmail.com
+
+🐍 GitHub: @Lohith-07
+
+💼 LinkedIn: linkedin.com/in/lohithburra
