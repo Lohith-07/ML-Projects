@@ -1,52 +1,67 @@
 🤖 Machine Learning Projects Repository
 
-Welcome to my Machine Learning Projects repository!
-This repo contains beginner-to-intermediate level projects aimed at building end-to-end ML pipelines for real-world problems. Each project includes EDA, feature engineering, model training, evaluation, and conclusions.
+Welcome to my Machine Learning Projects repository! This repo contains beginner-friendly projects aimed at building end-to-end ML pipelines for real-world problems.
 
 📁 Projects
 1. 🛍️ Customer Purchase Prediction
 
-Goal: Predict whether a customer will purchase a product based on demographic and financial features.
+Goal: Predict whether a customer will purchase a product based on their gender, age, and estimated salary.
 
-Dataset: Shop.csv (simulated / open source).
+Dataset: Shop.csv (simulated or from open sources)
 
-Tech Stack: Logistic Regression, Naive Bayes, Label Encoding, Scaling, Streamlit.
+Tech Stack:
 
-Highlights:
+Logistic Regression
 
-Feature preprocessing & encoding
+Naive Bayes Classifier
 
-EDA using Seaborn & Matplotlib
+Label Encoding
 
-Model comparison (Logistic vs Naive Bayes)
+Standard Scaling
 
-Evaluation: Accuracy, Confusion Matrix, Precision/Recall/F1
+Seaborn & Matplotlib for EDA
 
-🔗 View Project
+Streamlit (for optional web app)
+
+Project Highlights:
+
+Feature preprocessing and encoding
+
+Visual exploratory data analysis
+
+Model building and comparison
+
+Evaluation using accuracy, confusion matrix, precision/recall/F1
 
 2. 🚗 Car Price Prediction
 
-Goal: Predict the price of a car based on its specifications (engine, horsepower, torque, etc.).
+Goal: Predict the price of a car based on technical specifications like engine size, horsepower, torque, and acceleration.
 
-Dataset: 1,000 car records with 8 features.
+Dataset: Car dataset (1,000+ entries with 8 key features).
 
-Tech Stack: Multiple Linear Regression, Random Forest, Pandas, Seaborn, Scikit-learn.
+Tech Stack:
 
-Highlights:
+Multiple Linear Regression (MLR)
 
-EDA (distributions, correlations, scatterplots, boxplots)
+Random Forest Regressor
 
-Regression modeling (MLR & Random Forest)
+Cross-validation
 
-Cross-validation for robustness
+Seaborn & Matplotlib for EDA
 
-Insights into strongest predictors (Horsepower, Torque, Engine Size)
+Project Highlights:
 
-🔗 View Project
+Comprehensive EDA (correlation heatmap, scatterplots, distribution plots, boxplots)
+
+Regression modeling and comparison (MLR vs Random Forest)
+
+Cross-validation for robustness (MLR ~0.94 R² vs RF ~0.91 R²)
+
+Key predictors identified: Horsepower, Torque, Engine Size
 
 🧰 Tools & Libraries
 
-Python 3
+Python 3.x
 
 pandas, numpy
 
